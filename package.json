@@ -1,0 +1,31 @@
+{
+    "name": "dark-orchid",
+    "displayName": "Dark Orchid",
+    "description": "A Dark color theme for vs code.",
+    "publisher": "aliYaakoub",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.67.0"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Themes"
+    ],
+    "extensionKind": [
+      "ui",
+      "workspace"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/aliYaakoub/Dark_orchid_color_theme.git"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Orchid",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark orchid-color-theme.json"
+            }
+        ]
+    }
+}
